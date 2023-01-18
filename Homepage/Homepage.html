@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+
+    <style>
+        @media screen and (min-width:800px) and (max-width:1100px){
+            .title_child_1{
+                border-bottom: 0;
+                justify-content:flex-start;
+                align-items: center;
+            }
+            .title_child_1 > p{
+                display: none;
+            }
+            #bur_button{
+                display: block;
+                margin: 0 30px;
+            }
+            .catagory{
+                display: none;
+            }
+            .offer_child{
+                font-size: 10px;
+            }
+            .offer_child_2 > span{
+                font-size: 12px;
+            }
+            .offer_child_2 > a > p{
+                font-size: 12px;
+            }
+            button{
+                font-size: 10px;
+            }
+            .part_2_2 {
+                margin-top: 0;
+            }
+            .part_3{
+                margin-top: 2cm;
+            }
+            .part_3_2{
+                margin-top: 0;
+            }
+            .part_4{
+                margin-top: 2cm;
+            }
+            .part_4_2{
+                margin-top: 0;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .part_4_2 > button{
+                margin: auto;
+            }
+            .part_6{
+                width: 95%;
+            }
+        }
+
+        @media screen and (min-width:100px) and (max-width:799px){
+            .title{
+                padding: 10px 5px;
+            }
+            .title_child_1{
+                border-bottom: 0;
+                justify-content:flex-start;
+                align-items: center;
+            }
+            .title_child_1 > p{
+                display: none;
+            }
+            #bur_button{
+                display: block;
+                margin: 0 30px;
+            }
+            .offer_child_2{
+                display: none;
+            }
+            .catagory{
+                display: none;
+            }
+            .offer_child{
+                font-size: 10px;
+            }
+            .offer_child_2 > span{
+                font-size: 12px;
+            }
+            .offer_child_2 > a > p{
+                font-size: 12px;
+            }
+            button{
+                font-size: 10px;
+            }
+            .part_2_2 {
+                margin-top: 0;
+                display: block;
+                padding: 0 15px;
+            }
+            .part_2_2 > button{
+                width: 95%;
+                height: 40px;
+                display: block;
+            }
+            .part_3{
+                margin-top: 2cm;
+            }
+            .part_3_2{
+                margin-top: 0;
+            }
+            .part_3_2 > div{
+                width: 95%;
+                display: block;
+            }
+            .part_3_2 > div > button{
+                width: 100%;
+                border: 1px solid blue;
+                height: 40px;
+                margin: 13px;
+                float: right;
+
+            }
+            .part_4{
+                margin-top: 2cm;
+            }
+            .part_4_2{
+                margin-top: 0;
+                display: block;
+                justify-content: space-evenly;
+            }
+            .part_4_2 > button{
+                margin: auto;
+                width: 100%;
+                margin: 7px 0;
+                display: block;
+            }
+            .part_6{
+                width: 95%;
+                display: block;
+                margin: auto;
+            }
+            .part_6_1{
+                width: 95%;
+                margin: 1cm auto;
+            }
+            .part_7_1{
+                width: 100%;
+            }
+            .part_7_1 > h3{
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+<!--nav part-->
+    <nav>
+    <div class="offer">
+        <div class="offer_child">
+            <img src="https://www.eddiebauer.com/static/ar-logo/ar-logo-small.png" alt="">
+            <span>Earn Rewards On Purchases</span>
+        </div>
+        <div class="offer_child offer_child_2">
+            <span>WINTER SALE - UP TO 60% OFF</span>
+            <a href="#"><p>VIEW ALL OFFERS ></p></a>
+        </div>
+        <div class="offer_child offer_child_3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            </svg>
+            <span>Stores |</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+            </svg>
+            <span>Sign In / Sign Up</span>
+        </div>
+    </div>
+    <div class="title">
+        <div class="title_child title_child_1">
+            <p>Search</p>
+            <h1 id="bur_button" onclick="opennav()">|||</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+        </div>
+        <div class="title_child title_child_3">
+            <img src="./project_logo.png" alt="">
+        </div>
+        <div class="title_child title_child_2">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+            </svg></a>
+            <p>Bag</p>
+        </div>
+    </div>
+    <div class="catagory">
+        <a href="#"><p>NEW!</p></a>
+        <a href="#"><p>WOMEN</p></a>
+        <a href="#"><p>MEN</p></a>
+        <a href="#"><p>KIDS</p></a>
+        <a href="#"><p>OUTWEAR</p></a>
+        <a href="#"><p>GREAR</p></a>
+        <a href="#"><p>FOOTWEAR</p></a>
+        <a href="#"><p>HOME</p></a>
+        <a href="#"><p>SALE</p></a>
+        <a href="#"><p>CLEARANCE</p></a>
+        <a href="#"><p>RESALE</p></a>
+        <a href="#"><p>GUIDPOST</p></a>
+    </div>
+    <div id="myslide" class="slide">
+        <div>
+        <a href="#" class="closebtn" onclick="closenav()">X</a>
+        <a href="#"><p>NEW!</p></a>
+        <a href="#"><p>WOMEN</p></a>
+        <a href="#"><p>MEN</p></a>
+        <a href="#"><p>KIDS</p></a>
+        <a href="#"><p>OUTWEAR</p></a>
+        <a href="#"><p>GREAR</p></a>
+        <a href="#"><p>FOOTWEAR</p></a>
+        <a href="#"><p>HOME</p></a>
+        <a href="#"><p>SALE</p></a>
+        <a href="#"><p>CLEARANCE</p></a>
+        <a href="#"><p>RESALE</p></a>
+        <a href="#"><p>GUIDPOST</p></a>
+        </div>
+    </div>
+    </nav>
+<!--part 2-->
+    <div class="part_2">
+        <div class="part_2_1">
+        <img src="https://eddiebauer.scene7.com/is/image/EBContent/230111_hp_training_V10?$a8$" alt="">
+        </div>
+        <div class="part_2_2">
+            <button>SHOP WOMEN</button>
+            <button>SHOP MEN</button>
+        </div>
+    </div>
+<!--part 3-->
+    <div class="part_3">
+        <div class="part_3_1">
+            <img src="https://eddiebauer.scene7.com/is/image/EBContent/230111_hp_boots_V8?$a8$" alt="">
+        </div>
+        <div class="part_3_2">
+            <div>
+            <button>SHOP WOMEN</button>
+            <button>SHOP MEN</button>
+            </div>
+        </div>
+    </div>
+<!--part 4-->
+    <div class="part_4">
+        <div class="part_4_1">
+            <img src="https://eddiebauer.scene7.com/is/image/EBContent/230102_hp_promo_V4?$a8$"/>
+        </div>
+        <div class="part_4_2">
+            <button>SHOP WOMEN</button>
+            <button>SHOP MEN</button>
+            <button>SHOP KIDS</button>
+            <button>SHOP HOME</button>
+        </div>
+    </div>
+<!--part 5-->
+    <div class="part_5">
+        <h2>BUY ONLINE,PICK UP IN-STORE <a href="#">Learn More ></a></h2>
+    </div>
+<!--part 6-->
+    <div class="part_6">
+        <div class="part_6_1">
+        <img src="https://eddiebauer.scene7.com/is/image/EBContent/221227_hp_mrkt3box_AF_V1?$jpg12$&scl=1"/>
+        <h3>Americen Forests</h3>
+        <p>Thanks to you we're making a difference!
+            We've partnered with American Forests for
+            over 25 years, and your generous support has
+            helped plant over 8 million trees across the US
+            and Canada.
+        </p>
+        <a href="#">LEARN MORE</a>
+        </div>
+        <div class="part_6_1">
+            <img src="https://eddiebauer.scene7.com/is/image/EBContent/221227_hp_mrkt3box_TT_V1?$jpg12$&scl=1"/>
+            <h3>Abundance Abounds!</h3>
+            <p>Lettuce show you a few of the Eddie Bauer
+                products @redleafranch loves to wears while
+                working in his Tennessee vegetable garden,
+                where his currant harvest is almost beyond be-
+                leaf. #JustOutsideYourDoor
+            </p>
+            <a href="#">FOLLOW US ON TIK TOK</a>
+        </div>
+        <div class="part_6_1">
+            <img src="https://eddiebauer.scene7.com/is/image/EBContent/221227_hp_mrkt3box_H5_V1?$jpg12$&scl=1"/>
+            <h3>High Fives Foundation</h3>
+            <p>Founded by Roy Tuscany in 2009, The High
+                Fives Foundation is a non-profit organization
+                that serves athletes living with life-altering
+                injuries, such as spinal cord or traumatic brain
+            </p>
+            <a href="#">LEARN MORE</a>
+        </div>
+    </div>
+<!--part 7-->
+    <div class="part_7">
+    <span class="part_7_1">
+    <h3>SHOP NOW. PAY LATER <a href="#"> WITH <div>Karma.</div> Learn More ></a></h3>
+    </span>
+    </div>
+<!---part 8-->
+</body>
+<script>
+    function opennav(){
+        document.getElementById("myslide").style.width="250px"
+    }
+
+    function closenav(){
+        document.getElementById("myslide").style.width="0"
+    }
+</script>
+</html>
