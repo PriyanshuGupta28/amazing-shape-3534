@@ -1,0 +1,673 @@
+{
+    "women":[
+        {
+            "id":1,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/0387/195/611/2/w/281/0387195611_1_1_1.jpg?ts=1668527092971",
+            "name":"SEQUIN BLAZER DRESS",
+            "catagory":"dress",
+            "price":5990
+        },
+        {
+            "id":2,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/9246/864/800/2/w/281/9246864800_1_1_1.jpg?ts=1666959137003",
+            "name":"MIDI DRESS",
+            "catagory":"dress",
+            "price":3990
+        },
+        {
+            "id":3,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/3067/206/423/2/w/281/3067206423_1_1_1.jpg?ts=1660218548500",
+            "name":"DARTED SHORT DRESS",
+            "catagory":"dress",
+            "price":2590
+        },
+        {
+            "id":4,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/8469/322/800/13/w/281/8469322800_1_1_1.jpg?ts=1670432211885",
+            "name":"LONG PRINTED DRESS",
+            "catagory":"dress",
+            "price":6790
+        },
+        {
+            "id":5,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/8514/056/800/2/w/281/8514056800_1_1_1.jpg?ts=1668771782048",
+            "name":"VELVET MINI DRESS",
+            "catagory":"dress",
+            "price":4990
+        },{
+            "id":6,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/7978/911/330/2/w/281/7978911330_1_1_1.jpg?ts=1654516102825",
+            "name":"SHORT SATIN DRESS",
+            "catagory":"dress",
+            "price":5900
+        },{
+            "id":7,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/6895/221/330/2/w/281/6895221330_1_1_1.jpg?ts=1668705087123",
+            "name":"LONG PRINTED DRESS",
+            "catagory":"dress",
+            "price":3990.00
+        },{
+            "id":8,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/4786/284/800/2/w/281/4786284800_1_1_1.jpg?ts=1664536992339",
+            "name":"LACE MIDI DRESS",
+            "catagory":"dress",
+            "price":5390
+        },{
+            "id":9,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/8759/362/251/2/w/281/8759362251_1_1_1.jpg?ts=1660727370421",
+            "name":"VELVET SHIRT DRESS",
+            "catagory":"dress",
+            "price":5490
+        },{
+            "id":10,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/1971/172/098/2/w/281/1971172098_1_1_1.jpg?ts=1660721863051",
+            "name":"CONTRAST SEQUIN DRESS",
+            "catagory":"dress",
+            "price":5890
+        }
+    ],
+    "men":[
+        {
+            "id":1,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/7545/405/400/2/w/281/7545405400_2_1_1.jpg?ts=1661256151300",
+            "name":"SLIM FIT SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"XL"
+        },
+        {
+            "id":2,
+            "img":"https://static.zara.net/photos///2022/I/0/2/p/4127/299/800/2/w/281/4127299800_1_1_1.jpg?ts=1670843781540",
+            "name":"STRETCH SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"X"
+        },
+        {
+            "id":3,
+            "img":"https://static.zara.net/photos///2023/V/0/2/p/4100/264/084/2/w/281/4100264084_1_1_1.jpg?ts=1669367924422",
+            "name":"SATIN SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"L"
+        },
+        {
+            "id":4,
+            "img":"https://static.zara.net/photos///2023/V/0/2/p/4041/054/800/2/w/281/4041054800_1_1_1.jpg?ts=1669720556905",
+            "name":"FLORAL JACQUARD SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"XL"
+        },
+        {
+            "id":5,
+            "img":"https://static.zara.net/photos///2023/V/0/2/p/7545/191/800/2/w/281/7545191800_1_1_1.jpg?ts=1669720586657",
+            "name":"FLORAL JACQUARD SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"X"
+        },
+        {
+            "id":6,
+            "img":"https://static.zara.net/photos///2022/I/0/2/p/6085/355/800/2/w/281/6085355800_1_1_1.jpg?ts=1663149919933",
+            "name":"GEOMETRIC PRINT SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"L"
+        },
+        {
+            "id":7,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/4483/441/250/2/w/281/4483441250_2_1_1.jpg?ts=1663772730052",
+            "name":"BANDANA PRINT SHIRT",
+            "catagory":"shirt",
+            "price":1990,
+            "size":"XL"
+        },
+        {
+            "id":8,
+            "img":"https://static.zara.net/photos///2022/I/0/2/p/0399/014/623/2/w/281/0399014623_1_1_1.jpg?ts=1658845522737",
+            "name":"STRIPED SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"X"
+        },
+        {
+            "id":9,
+            "img":"https://static.zara.net/photos///2022/I/0/2/p/7446/303/330/2/w/281/7446303330_1_1_1.jpg?ts=1664348678493",
+            "name":"MESH TEXTURED SHIRT",
+            "price":5990,
+            "size":"L"
+        },
+        {
+            "id":10,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/1434/290/058/2/w/281/1434290058_2_1_1.jpg?ts=1664812184315",
+            "name":"STRIPED SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"XL"
+        },
+        {
+            "id":11,
+            "img":"https://m.media-amazon.com/images/I/512pBZ7L-JL._AC_UL320_.jpg",
+            "name":"DIVERSE SHIRT",
+            "catagory":"shirt",
+            "price":6990,
+            "size":"X"
+        },
+        {
+            "id":12,
+            "img":"https://m.media-amazon.com/images/I/71cFpnm0b6S._AC_UL320_.jpg",
+            "name":"LOOK MARK",
+            "catagory":"shirt",
+            "price":4990,
+            "size":"L"
+        },
+        {
+            "id":13,
+            "img":"https://m.media-amazon.com/images/I/81EqA--jXFL._AC_UL320_.jpg",
+            "name":"ALLEN SOLLY",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"XL"
+        },
+        {
+            "id":13,
+            "img":"https://m.media-amazon.com/images/I/618Wek95laS._AC_UL320_.jpg",
+            "name":"DENNIS LINGO",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"X"
+        },
+        {
+            "id":14,
+            "img":"https://m.media-amazon.com/images/I/710+M61cX4L._AC_UL320_.jpg",
+            "name":"DIVERSE",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"L"
+        },
+        {
+            "id":15,
+            "img":"https://m.media-amazon.com/images/I/71yM0xUAetL._AC_UL320_.jpg",
+            "name":"INDO PRIMO",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"XL"
+        },
+        {
+            "id":16,
+            "img":"https://m.media-amazon.com/images/I/51L+sv4kd9L._AC_UL320_.jpg",
+            "name":"MANQ",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"X"
+        },
+        {
+            "id":17,
+            "img":"https://m.media-amazon.com/images/I/81uTb5UwUgL._AC_UL320_.jpg",
+            "name":"MIRAAN",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"L"
+        }
+
+
+        
+    ],
+    "kids":[
+        {
+            "id":1,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/9632/708/250/2/w/281/9632708250_6_1_1.jpg?ts=1655733389464",
+            "name":"CUT-OUT DENIM DRESS",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":2,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/6474/549/052/2/w/281/6474549052_6_1_1.jpg?ts=1663937258827",
+            "name":"JUMPSUIT WITH ELASTIC",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":3,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/1165/729/807/2/w/281/1165729807_6_1_1.jpg?ts=1659440891829",
+            "name":"POWERPUFF GIRLS CAR",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":4,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/1554/748/711/2/w/281/1554748711_6_1_1.jpg?ts=1658992197888",
+            "name":"TWO-PACK OF PLAIN TIGHTS",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":5,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/1554/748/711/2/w/750/1554748711_6_1_1.jpg?ts=1658992197888",
+            "name":"KIDS/ JACQUARD KNIT",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":6,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/0653/700/802/2/w/281/0653700802_6_5_1.jpg?ts=1667906990682",
+            "name":"KIDS/ CAT FAUX FUR EAR",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":7,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/0722/699/807/2/w/281/0722699807_6_1_1.jpg?ts=1667549519900",
+            "name":"KIDS/ STAR PYJAMAS",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":8,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/0653/703/600/2/w/281/0653703600_6_5_1.jpg?ts=1665483457771",
+            "name":"KIDS/ FAUX FUR EARMUFFS",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":9,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/7099/799/250/2/w/281/7099799250_6_1_1.jpg?ts=1653031131365",
+            "name":"KIDS/ SMILEYWORLD",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":10,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/8501/724/712/2/w/281/8501724712_6_1_1.jpg?ts=1664533173554",
+            "name":"KIDS/ PACK OF SIX TEXT",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        }
+    ],
+
+   "shirt" : [
+    {
+        "id":1,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/7545/405/400/2/w/281/7545405400_2_1_1.jpg?ts=1661256151300",
+        "name":"SLIM FIT SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":2,
+        "img":"https://static.zara.net/photos///2022/I/0/2/p/4127/299/800/2/w/281/4127299800_1_1_1.jpg?ts=1670843781540",
+        "name":"STRETCH SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":3,
+        "img":"https://static.zara.net/photos///2023/V/0/2/p/4100/264/084/2/w/281/4100264084_1_1_1.jpg?ts=1669367924422",
+        "name":"SATIN SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":4,
+        "img":"https://static.zara.net/photos///2023/V/0/2/p/4041/054/800/2/w/281/4041054800_1_1_1.jpg?ts=1669720556905",
+        "name":"FLORAL JACQUARD SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":5,
+        "img":"https://static.zara.net/photos///2023/V/0/2/p/7545/191/800/2/w/281/7545191800_1_1_1.jpg?ts=1669720586657",
+        "name":"FLORAL JACQUARD SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":6,
+        "img":"https://static.zara.net/photos///2022/I/0/2/p/6085/355/800/2/w/281/6085355800_1_1_1.jpg?ts=1663149919933",
+        "name":"GEOMETRIC PRINT SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":7,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/4483/441/250/2/w/281/4483441250_2_1_1.jpg?ts=1663772730052",
+        "name":"BANDANA PRINT SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":8,
+        "img":"https://static.zara.net/photos///2022/I/0/2/p/0399/014/623/2/w/281/0399014623_1_1_1.jpg?ts=1658845522737",
+        "name":"STRIPED SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":9,
+        "img":"https://static.zara.net/photos///2022/I/0/2/p/7446/303/330/2/w/281/7446303330_1_1_1.jpg?ts=1664348678493",
+        "name":"MESH TEXTURED SHIRT",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":10,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/1434/290/058/2/w/281/1434290058_2_1_1.jpg?ts=1664812184315",
+        "name":"STRIPED SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    }
+    
+],
+"dress":[
+    {
+        "id":1,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/0387/195/611/2/w/281/0387195611_1_1_1.jpg?ts=1668527092971",
+        "name":"SEQUIN BLAZER DRESS",
+        "catagory":"dress",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":2,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/9246/864/800/2/w/281/9246864800_1_1_1.jpg?ts=1666959137003",
+        "name":"MIDI DRESS",
+        "catagory":"dress",
+        "price":"₹ 3,990.00"
+    },
+    {
+        "id":3,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/3067/206/423/2/w/281/3067206423_1_1_1.jpg?ts=1660218548500",
+        "name":"DARTED SHORT DRESS",
+        "catagory":"dress",
+        "price":"₹ 2,590.00"
+    },
+    {
+        "id":4,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/8469/322/800/13/w/281/8469322800_1_1_1.jpg?ts=1670432211885",
+        "name":"LONG PRINTED DRESS",
+        "catagory":"dress",
+        "price":"₹ 6,790.00"
+    },
+    {
+        "id":5,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/8514/056/800/2/w/281/8514056800_1_1_1.jpg?ts=1668771782048",
+        "name":"VELVET MINI DRESS",
+        "catagory":"dress",
+        "price":"₹ 4,990.00"
+    },{
+        "id":6,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/7978/911/330/2/w/281/7978911330_1_1_1.jpg?ts=1654516102825",
+        "name":"SHORT SATIN DRESS",
+        "catagory":"dress",
+        "price":"₹ 5,900.00"
+    },{
+        "id":7,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/6895/221/330/2/w/281/6895221330_1_1_1.jpg?ts=1668705087123",
+        "name":"LONG PRINTED DRESS",
+        "catagory":"dress",
+        "price":"₹ 3,990.00"
+    },{
+        "id":8,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/4786/284/800/2/w/281/4786284800_1_1_1.jpg?ts=1664536992339",
+        "name":"LACE MIDI DRESS",
+        "catagory":"dress",
+        "price":"₹ 5,390.00"
+    },{
+        "id":9,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/8759/362/251/2/w/281/8759362251_1_1_1.jpg?ts=1660727370421",
+        "name":"VELVET SHIRT DRESS",
+        "catagory":"dress",
+        "price":"₹ 5,490.00"
+    },{
+        "id":10,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/1971/172/098/2/w/281/1971172098_1_1_1.jpg?ts=1660721863051",
+        "name":"CONTRAST SEQUIN DRESS",
+        "catagory":"dress",
+        "price":"₹ 5,890.00"
+    }
+],
+"Shoes":[
+    {
+        "id":1,
+        "img":"https://m.media-amazon.com/images/I/61ePa5fEKnL._AC_UL320_.jpg",
+        "name":"CAMPUS RUNNING SHOES",
+        "catagory":"Shoes",
+        "price":500,
+        "size": 5
+    },
+    {
+        "id":2,
+        "img":"https://m.media-amazon.com/images/I/71UDBmG9kbL._AC_UL320_.jpg",
+        "name":"CAMPUS JOGGING SHOES",
+        "catagory":"Shoes",
+        "price":499,
+        "size": 6
+    },
+    {
+        "id":3,
+        "img":"https://m.media-amazon.com/images/I/61utX8kBDlL._AC_UL320_.jpg",
+        "name":"ASIAN SHOES",
+        "catagory":"Shoes",
+        "price": 499,
+        "size": 7
+    },
+    {
+        "id":4,
+        "img":"https://m.media-amazon.com/images/I/71kfO4VXDFL._UX395_.jpg",
+        "name":"ADDIDAS",
+        "catagory":"Shoes",
+        "price":2099,
+        "size": 5
+    },
+    {
+        "id":5,
+        "img":"https://m.media-amazon.com/images/I/61jbLbXriAL._AC_UL320_.jpg",
+        "name":"AMICO",
+        "catagory":"Shoes",
+        "price": 599,
+        "size": 6
+    },
+    {
+        "id":6,
+        "img":"https://m.media-amazon.com/images/I/81uMdMRLB-L._AC_UL320_.jpg",
+        "name":"SPARX SHOES",
+        "catagory":"Shoes",
+        "price":963,
+        "size": 7
+    },
+    {
+        "id":7,
+        "img":"https://m.media-amazon.com/images/I/81S1E1Dr-BL._AC_UL320_.jpg",
+        "name":"WORLD WEAR FOOTWEAR",
+        "catagory":"Shoes",
+        "price":309,
+        "size": 5
+    },
+    {
+        "id":8,
+        "img":"https://m.media-amazon.com/images/I/81g0Wb-oANL._AC_UL320_.jpg",
+        "name":"ASIAN SHOES",
+        "catagory":"Shoes",
+        "price": 526,
+        "size": 6
+    },
+    {
+        "id":9,
+        "img":"https://m.media-amazon.com/images/I/61Z4f7XkawL._AC_UL320_.jpg",
+        "name":"CAMPUS RUNNING SHOES",
+        "catagory":"Shoes",
+        "price": 895,
+        "size": 7
+    },
+    {
+        "id":10,
+        "img":"https://m.media-amazon.com/images/I/91C8pdgataL._AC_UL320_.jpg",
+        "name":"AADI",
+        "catagory":"Shoes",
+        "price":299,
+        "size": 5
+    },
+    {
+        "id":11,
+        "img":"https://m.media-amazon.com/images/I/41mWz2aRrTL._AC_UL320_.jpg",
+        "name":"ASIAN",
+        "catagory":"Shoes",
+        "price": 509,
+        "size": 6
+    },
+    {
+        "id":12,
+        "img":"https://m.media-amazon.com/images/I/41dXa2CVvPL._AC_UL320_.jpg",
+        "name":"REEBOK SHOES",
+        "catagory":"Shoes",
+        "price": 1099,
+        "size": 7
+    },
+    {
+        "id":13,
+        "img":"https://m.media-amazon.com/images/I/71bAepMLVVL._AC_UL320_.jpg",
+        "name":"KARASA SHOES",
+        "catagory":"Shoes",
+        "price": 569,
+        "size": 5
+    },
+    {
+        "id":14,
+        "img":"https://m.media-amazon.com/images/I/71fC87DbLHL._AC_UL320_.jpg",
+        "name":"BOURGE",
+        "catagory":"Shoes",
+        "price": 599,
+        "size": 6
+    },
+    {
+        "id":15,
+        "img":"https://m.media-amazon.com/images/I/71ZSYJXb0GL._AC_UL320_.jpg",
+        "name":"CORSTYLE",
+        "catagory":"Shoes",
+        "price": 599,
+        "size": 7
+    }
+],
+"Bottomwear":[
+    {
+        "id":1,
+        "img":"https://m.media-amazon.com/images/I/51XLVpbMvlL._AC_UL320_.jpg",
+        "name":"GENERIC",
+        "catagory":"jeans",
+        "price": 599,
+        "size":"X"
+    },
+    {
+        "id":2,
+        "img":"https://m.media-amazon.com/images/I/61R11o1DC+S._AC_UL320_.jpg",
+        "name":"ENDEAVOUR WEAR",
+        "catagory":"jeans",
+        "price": 499,
+        "size":"X"
+    },
+    {
+        "id":3,
+        "img":"https://m.media-amazon.com/images/I/61KeCcAj81L._AC_UL320_.jpg",
+        "name":"NOBERO",
+        "catagory":"jeans",
+        "price": 799,
+        "size":"XL"
+    },
+    {
+        "id":4,
+        "img":"https://m.media-amazon.com/images/I/61OEaHKYfPL._AC_UL320_.jpg",
+        "name":"NEVER LOSE",
+        "catagory":"jeans",
+        "price": 499,
+        "size":"X"
+    },
+    {
+        "id":5,
+        "img":"https://m.media-amazon.com/images/I/51zUzJpOR3L._AC_UL320_.jpg",
+        "name":"STYLE N FEEL",
+        "catagory":"jeans",
+        "price": 599,
+        "size":"L"
+    },
+    {
+        "id":6,
+        "img":"https://m.media-amazon.com/images/I/51ZCWkjopGL._AC_UL320_.jpg",
+        "name":"TWIST 99",
+        "catagory":"jeans",
+        "price":  785,
+        "size":"XL"
+    },
+    {
+        "id":7,
+        "img":"https://m.media-amazon.com/images/I/81Jt5IzgmcL._AC_UL320_.jpg",
+        "name":"REGAL TREASURE",
+        "catagory":"jeans",
+        "price": 399,
+        "size":"X"
+    },
+    {
+        "id":8,
+        "img":"https://m.media-amazon.com/images/I/71bYQOQ7CEL._AC_UL320_.jpg",
+        "name":"VEGO",
+        "catagory":"jeans",
+        "price": 650,
+        "size":"L"
+    },
+    {
+        "id":9,
+        "img":"https://m.media-amazon.com/images/I/618f+7rFIHL._AC_UL320_.jpg",
+        "name":"LAPPEN FASHION",
+        "catagory":"jeans",
+        "price": 499,
+        "size":"XL"
+    },
+    {
+        "id":10,
+        "img":"https://m.media-amazon.com/images/I/71gPFl7U--L._AC_UL320_.jpg",
+        "name":"BUGA BEAR",
+        "catagory":"jeans",
+        "price": 399,
+        "size":"X"
+    },
+    {
+        "id":11,
+        "img":"https://m.media-amazon.com/images/I/71Auj0YnFLL._AC_UL320_.jpg",
+        "name":"EASY TO WEAR",
+        "catagory":"jeans",
+        "price": 999,
+        "size":"L"
+    },
+    {
+        "id":12,
+        "img":"https://m.media-amazon.com/images/I/71av0TP8UkL._AC_UL320_.jpg",
+        "name":"VEGO",
+        "catagory":"jeans",
+        "price": 650,
+        "size":"XL"
+    },
+    {
+        "id":13,
+        "img":"https://m.media-amazon.com/images/I/315WYlXgc-L._AC_UL320_.jpg",
+        "name":"CW",
+        "catagory":"jeans",
+        "price": 599,
+        "size":"X"
+    },
+    {
+        "id":14,
+        "img":"https://m.media-amazon.com/images/I/51Lzx9zyHhL._AC_UL320_.jpg",
+        "name":"U>S POLO ASSN.",
+        "catagory":"jeans",
+        "price": 629,
+        "size":"L"
+    },
+    {
+        "id":15,
+        "img":"https://m.media-amazon.com/images/I/71Xgjt3+SPL._AC_UL320_.jpg",
+        "name":"EPOXY",
+        "catagory":"jeans",
+        "price": 449,
+        "size":"XL"
+    }
+]
+}

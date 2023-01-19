@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            border: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
+        nav{
+            background-color: white;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 10;
+            
+        }
+        .offer{
+            background-color: #333333;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+        }
+        .offer_child{
+            display: flex;
+            color: white;
+            font-size: 12px;
+            align-items: center;
+        }
+        .offer_child > a{
+            text-decoration: none;
+            color: white;
+        }
+        .offer_child > span{
+            padding: 0 10px;
+        }
+        .offer_child_2 > span{
+            padding: 0 10px;
+            font-size: 14px;
+        }
+        .offer_child_2 > a > p{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        button{
+            cursor: pointer;
+        }
+        .title{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 40px;
+            color: rgb(40, 38, 38);
+            align-items: center;
+        }
+        .title_child{
+            display: flex;
+        }
+        .title_child_1{
+            width: 250px;
+            justify-content: space-between;
+            padding: 7px;
+            border-bottom: 1px solid rgb(41, 39, 39);
+        }
+        #bur_button{
+            display: none;
+            cursor: pointer;
+        }
+        .title_child_2{
+            display: block;
+            text-align: center;
+        }
+        .title_child_2 > a{
+            text-decoration: none;
+            color: rgb(41, 39, 39);
+        }
+        .title_child_3{
+            margin-left: -200px;
+        }
+        .title_child_3 > img{
+            width: 200px;
+        }
+        .catagory{
+            width: 80%;
+            display: flex;
+            margin: 15px auto;
+            padding: 12px;
+            overflow: hidden;
+        }
+        .catagory > a{
+            text-decoration: none;
+            color: rgb(41, 39, 39);
+            margin: auto;
+            padding: 2px;
+        
+        }
+        .catagory > a > p{
+            font-size: 13px;
+            font-weight: 600;
+            transition: 0.1s ease-in;
+            border: 3px solid white;
+        }
+        .catagory > a:nth-child(10){
+            color: red;
+        }
+        .catagory > a > p:hover{
+            border-bottom: 3px solid rgb(5, 177, 177);
+        }
+                /* ----------------------slide part----------------------- */
+        .slide{
+                width:0px;
+                height: 100vh;
+                background-color: rgba(27, 26, 26, 0.774);
+                position: fixed;
+                top: 0;
+                z-index: 1;
+                overflow: hidden;
+                transition: 0.5s;
+            }
+            .slide > div{
+                margin-top: 15%;
+            }
+            .slide > div > a{
+                text-decoration: none;
+                color: whitesmoke;
+                display:block;
+                padding: 10px;
+                margin: 5px 0 5px 20px;
+                font-size: 10px;
+            }
+            .closebtn{
+                float: right;
+            }
+            .openbtn{
+                background-color: #111;
+                cursor: pointer;
+                color: white;
+                padding: 15px;
+                font-size: 20px;
+            }
+                        @media screen and (min-width:800px) and (max-width:1100px){
+                    .title_child_1{
+                        border-bottom: 0;
+                        justify-content:flex-start;
+                        align-items: center;
+                    }
+                    .title_child_1 > p{
+                        display: none;
+                    }
+                    #bur_button{
+                        display: block;
+                        margin: 0 30px;
+                    }
+                    .catagory{
+                        display: none;
+                    }
+                    .offer_child{
+                        font-size: 10px;
+                    }
+                    .offer_child_2 > span{
+                        font-size: 12px;
+                    }
+                    .offer_child_2 > a > p{
+                        font-size: 12px;
+                    }
+                }
+        
+                @media screen and (min-width:100px) and (max-width:799px){
+                    .title{
+                        padding: 10px 5px;
+                    }
+                    .title_child_1{
+                        border-bottom: 0;
+                        justify-content:flex-start;
+                        align-items: center;
+                    }
+                    .title_child_1 > p{
+                        display: none;
+                    }
+                    #bur_button{
+                        display: block;
+                        margin: 0 30px;
+                    }
+                    .offer_child_2{
+                        display: none;
+                    }
+                    .catagory{
+                        display: none;
+                    }
+                    .offer_child{
+                        font-size: 10px;
+                    }
+                    .offer_child_2 > span{
+                        font-size: 12px;
+                    }
+                    .offer_child_2 > a > p{
+                        font-size: 12px;
+                    }
+                }
+    </style>
+    <style>
+        #main{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 10px;
+            row-gap: 40px;
+            margin-top: 6cm;
+            margin-left: 5%;
+            width: 75%;
+        }
+        #main>div img{
+            width: 100%;
+            height: 80%;
+        }
+        #main>div{
+            margin: auto;
+            padding: 50px;
+            width: 80%;
+            height: 80%;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        }
+        #conatiner{
+            display: flex;
+            justify-content: space-evenly;
+            width: 95%;
+            margin: auto;
+            text-align: center;
+        }
+        #conatiner>div:nth-child(1){
+            width: 20%;
+            margin-top: 1cm;
+            margin-left: 2cm;
+        }
+        #conatiner>div:nth-child(2){
+            width: 100%;
+            margin-top: 1cm;
+        }
+        #function>div:nth-child(2){
+            margin-top: 50px;
+        }
+        #function select{
+            padding: 10px;
+            border-radius: 5px;
+            border:1px solid black;
+        }
+        .cart-button{
+            padding: 5px;
+            font-size: x-large;
+            margin-left: 20%;
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+        }
+        #image-top{
+            margin-top: 6cm;
+        }
+        #image-top>img{
+            width: 90%;
+            margin-left: 6%;
+        }
+        
+    </style>
+</head>
+<body>
+        <nav>
+            <div class="offer">
+                <div class="offer_child">
+                    <img src="https://www.eddiebauer.com/static/ar-logo/ar-logo-small.png" alt="">
+                    <span>Earn Rewards On Purchases</span>
+                </div>
+                <div class="offer_child offer_child_2">
+                    <span>WINTER SALE - UP TO 60% OFF</span>
+                    <a href="#"><p>VIEW ALL OFFERS ></p></a>
+                </div>
+                <div class="offer_child offer_child_3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                    </svg>
+                    <span>Stores |</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                    </svg>
+                    <span>Sign In/Sign Up</span>
+                </div>
+            </div>
+            <div class="title">
+                <div class="title_child title_child_1">
+                    <p>Search</p>
+                    <h1 id="bur_button" onclick="opennav()">|||</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </div>
+                <div class="title_child title_child_3">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class="title_child title_child_2">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+                    </svg></a>
+                    <p>Bag</p>
+                </div>
+            </div>
+            <div class="catagory">
+                <a href="#"><p>NEW!</p></a>
+                <a href="#"><p>WOMEN</p></a>
+                <a href="./MenPage.html"><p>MEN</p></a>
+                <a href="#"><p>KIDS</p></a>
+                <a href="#"><p>OUTWEAR</p></a>
+                <a href="#"><p>GREAR</p></a>
+                <a href="./Shoes.html"><p>FOOTWEAR</p></a>
+                <a href="#"><p>HOME</p></a>
+                <a href="#"><p>SALE</p></a>
+                <a href="#"><p>CLEARANCE</p></a>
+                <a href="#"><p>RESALE</p></a>
+                <a href="#"><p>GUIDPOST</p></a>
+            </div>
+            <div id="myslide" class="slide">
+                <div>
+                <a href="#" class="closebtn" onclick="closenav()">X</a>
+                <a href="#"><p>NEW!</p></a>
+                <a href="#"><p>WOMEN</p></a>
+                <a href="./MenPage.html"><p>MEN</p></a>
+                <a href="#"><p>KIDS</p></a>
+                <a href="#"><p>OUTWEAR</p></a>
+                <a href="#"><p>GREAR</p></a>
+                <a href="./Shoes.html"><p>FOOTWEAR</p></a>
+                <a href="#"><p>HOME</p></a>
+                <a href="#"><p>SALE</p></a>
+                <a href="#"><p>CLEARANCE</p></a>
+                <a href="#"><p>RESALE</p></a>
+                <a href="#"><p>GUIDPOST</p></a>
+                </div>
+            </div>
+        </nav>
+        <div id="image-top">
+            <img src="http://d1j1qf6tutjg18.cloudfront.net/eddiebauer_us_ca/1652293560131-eddiebauer_us_ca-220415_footwear_banner.jpg" alt="">
+        </div>
+        <div id="conatiner">
+            <div id="function">
+                <div>
+                    <label for="cost">Sort by Price</label>
+                    <br>
+                    <select name="cost" id="sort-price">
+                        <option value="All">All</option>
+                        <option value="L2H">Low To High</option>
+                        <option value="H2L">High To Low</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="size">Filter By Size</label>
+                    <br>
+                    <select name="size" id="sort-size">
+                       <option value="ALL">All</option>
+                       <option value="XL">5</option>
+                       <option value="X">6</option>
+                       <option value="L">7</option>
+                    </select>
+                </div>
+            </div>
+            <div id="main">
+
+            </div>
+        </div>
+</body>
+</html>
+<script>
+    fetch('shop.json')
+  .then((response) => response.json())
+  .then((data) =>{
+    console.log(data.Shoes);
+    displayData(data.Shoes)
+  });
+  let main=document.querySelector("#main")
+  function displayData(data){
+    main.innerHTML=null;
+    data.forEach(function(elem){
+        let card=document.createElement("div");
+        let image=document.createElement("img");
+        image.setAttribute("src",elem.img);
+        let name= document.createElement("h3");
+        name.textContent=elem.name;
+        let price=document.createElement("p");
+        price.textContent="Rs:-"+elem.price;
+        let size= document.createElement("p");
+        size.textContent="Size:- "+elem.size;
+        let button=document.createElement("button");
+        button.textContent="Add To Cart";
+        button.setAttribute("class","cart-button")
+        card.append(image,name,price,size,button);
+        main.append(card);
+    })
+  }
+</script>
