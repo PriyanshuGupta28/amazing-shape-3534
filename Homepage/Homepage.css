@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    
+}
+.offer{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.offer_child{
+    display: flex;
+    color: white;
+    font-size: 12px;
+    align-items: center;
+}
+.offer_child > a{
+    text-decoration: none;
+    color: white;
+}
+.offer_child > span{
+    padding: 0 10px;
+}
+.offer_child_2 > span{
+    padding: 0 10px;
+    font-size: 14px;
+}
+.offer_child_2 > a > p{
+    font-size: 14px;
+    font-weight: 600;
+}
+button{
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    color: rgb(40, 38, 38);
+    align-items: center;
+}
+.title_child{
+    display: flex;
+}
+.title_child_1{
+    width: 250px;
+    justify-content: space-between;
+    padding: 7px;
+    border-bottom: 1px solid rgb(41, 39, 39);
+}
+#bur_button{
+    display: none;
+    cursor: pointer;
+}
+.title_child_2{
+    display: block;
+    text-align: center;
+}
+.title_child_2 > a{
+    text-decoration: none;
+    color: rgb(41, 39, 39);
+}
+.title_child_3{
+    margin-left: -200px;
+}
+.title_child_3 > img{
+    width: 250px;
+}
+.catagory{
+    width: 80%;
+    display: flex;
+    margin: 15px auto;
+    padding: 12px;
+    overflow: hidden;
+}
+.catagory > a{
+    text-decoration: none;
+    color: rgb(41, 39, 39);
+    margin: auto;
+    padding: 2px;
+
+}
+.catagory > a > p{
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.1s ease-in;
+    border: 3px solid white;
+}
+.catagory > a:nth-child(10){
+    color: red;
+}
+.catagory > a > p:hover{
+    border-bottom: 3px solid rgb(5, 177, 177);
+}
+.part_2{
+    margin-top: 5cm;
+}
+.part_2_1 > img{
+    width: 100%;
+}
+.part_2_2{
+    display: flex;
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: -4cm;
+
+}
+.part_2_2 > button{
+    width: 15%;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    border: 1px solid  rgb(41, 39, 39);
+}
+.part_2_2 > button:hover{
+    color: rgb(41, 39, 39);
+    background-color: white;
+}
+.part_3{
+    margin-top: 4cm;
+}
+.part_3_1 > img{
+    width: 100%;
+    z-index: -1;
+}
+.part_3_2 {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: -4cm;
+    z-index: 2;
+    flex-direction: row-reverse;
+}
+.part_3_2 > div{
+    width: 30%;
+    display: flex;
+}
+.part_3_2 > div > button{
+    width: 50%;
+    height: 40px;
+    margin: 13px;
+    float: right;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    border: 1px solid  rgb(41, 39, 39);
+}
+.part_3_2 > div > button:hover{
+    color: rgb(41, 39, 39);
+    background-color: white;
+}
+.part_4{
+    margin-top: 4cm;
+}
+.part_4_1 > img{
+    width: 100%;
+}
+.part_4_2{
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+    margin-top: -2.8cm;
+    width: 90%;
+}
+.part_4_2 > button{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color:  rgb(41, 39, 39);
+    border: 1px solid  rgb(41, 39, 39);
+}
+.part_4_2 > button:hover{
+    color: white;
+    background-color: rgb(41, 39, 39);
+}
+.part_5{
+    margin-top: 3.5cm;
+    background-color: #cde2dd;
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+}
+.part_5 > h2 > a{
+    text-decoration: none;
+    color: rgba(41, 39, 39, 0.172);
+    font-size: 14px;
+    margin: 0 15px;
+}
+/* ----------------------slide part----------------------- */
+.slide{
+        width:0px;
+        height: 100vh;
+        background-color: rgba(27, 26, 26, 0.774);
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .slide > div{
+        margin-top: 15%;
+    }
+    .slide > div > a{
+        text-decoration: none;
+        color: whitesmoke;
+        display:block;
+        padding: 10px;
+        margin: 5px 0 5px 20px;
+        font-size: 10px;
+    }
+    .closebtn{
+        float: right;
+    }
+    .openbtn{
+        background-color: #111;
+        cursor: pointer;
+        color: white;
+        padding: 15px;
+        font-size: 20px;
+    }
+/* ---------------part 6--------*/
+    .part_6{
+        display: flex;
+        margin: auto;
+        width: 90%;
+        margin-top: 2.5cm;
+    }
+    .part_6_1{
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .part_6_1 > img{
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .part_6_1 > h3{
+        color:  rgb(41, 39, 39);
+        margin: 15px;
+    }
+    .part_6_1 > p{
+        color: #333333;
+        font-family: Interstate;
+        font-size: 14px;
+        font-stretch: normal;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+        line-height: 1.6em;
+        text-align: center;
+        padding: 0 1.5rem 0 1.5rem;
+    }
+    .part_6_1 > a{
+        color: #333333;
+        font-size: 14px;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        line-height: 1em;
+        text-align: center;
+        text-decoration: underline;
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    .part_7{
+        background-color: #cde2dd87;
+        margin-top: 2cm;
+        padding: 10px;
+    }
+    .part_7_1{
+        display: flex;
+        width: 60%;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    .part_7_1 > h3{
+        display: flex;
+        font-size: 20px;
+        color: #333333;
+    }
+    .part_7_1 > h3 > a{
+        display: flex;
+        text-decoration: none;
+        color: #333333;
+        margin: 0 10px;
+        font-size: 11px;
+        align-items: center;
+    }
+    .part_7_1 > h3 > a > div{
+        display: flex;
+        margin: 0 10px;
+        color: black;
+        background-color: pink;
+        border-radius: 5px;
+        font-size: 14px;
+        align-items: center;
+    }
