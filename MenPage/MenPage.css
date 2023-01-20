@@ -162,6 +162,11 @@
                     .offer_child_2 > a > p{
                         font-size: 12px;
                     }
+                    #categories{
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    
                 }
         
                 @media screen and (min-width:100px) and (max-width:799px){
@@ -195,6 +200,14 @@
                     .offer_child_2 > a > p{
                         font-size: 12px;
                     }
+                    .cards-images{
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    #categories{
+                        flex-direction: column;
+                        align-items: center;
+                    }
                 }
                 #main-body{
                     margin-top: 6cm;
@@ -215,10 +228,11 @@
                 }
                 .cards-images{
                     display: flex;
-                    justify-content: space-evenly;
+                    justify-content: space-around;
                 }
                 #cards-image h2{
                     text-align: center;
+                    font-family: cursive;
                 }
                 .cards-images>img{
                     width: 200px;
