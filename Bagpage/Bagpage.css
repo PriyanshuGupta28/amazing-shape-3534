@@ -1,0 +1,361 @@
+#mid{
+    display: flex;
+    width: 70%;
+    margin-top: 5cm;
+    margin-left: 5cm;
+}
+
+#lb{
+    width: 70%;
+}
+
+#baghearder{
+    display: flex;  
+    margin: auto;
+    justify-content: left;
+}
+
+#baghearder>h2{
+    padding: 0px 80px 0px 0px;
+}
+
+#baghearder>p{
+    padding: 8px 0px 0px 0px;
+}
+
+#rb{
+    width: 30%;
+    padding: 20px;
+    background-color: grey;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: Interstate;
+    font-size: 1rem;
+    line-height: 1.428rem;
+    letter-spacing: 0.2px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    box-sizing: inherit;
+    background-color: rgb(247, 247, 247);
+}
+
+#bagData{
+    display: flex;  
+    margin: auto;
+    justify-content: left;
+}
+
+#bagData>h2{
+    padding: 0px 80px 0px 0px;
+}
+#bagData>p{
+    padding: 0px 0px 0px 0px;
+}
+
+
+#bagdata-part-2 div {
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: Interstate;
+    box-sizing: inherit;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-size: 1rem;
+    line-height: 1.428rem;
+    letter-spacing: 0.2px;
+    opacity: 1;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    padding-top: 10px;
+}
+
+#bagdata-part-2 p {
+    display: flex;
+    text-align: center;
+    
+}
+
+#CheckoutBtn{
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    box-sizing: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    min-width: inherit;
+    letter-spacing: 1.8px;
+    padding: 12px 24px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(51, 51, 51);
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+}
+
+#CheckoutBtn:hover{
+    background-color: white;
+    color: black;
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+}
+
+
+
+#PaypalCheckoutbtn{
+    tab-size: 4;
+    box-sizing: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    min-width: inherit;
+    letter-spacing: 1.8px;
+    padding: 12px 24px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(51, 51, 51);
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+}
+
+#PaypalCheckoutbtn:hover{
+    background-color:white;
+    color: black;
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.part_11_2 > div > h5{
+    color: #333333;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.part_11_2 > div > h6{
+    font-size: 12px;
+    color: #333333;
+    margin: 5px 0;
+}
+.part_11_2 > div > p{
+    font-size: 12px;
+    color: rgb(86, 90, 92);
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+.part_11_2 > div > button{
+    width: 85%;
+    height: 35px;
+    color: white;
+    background-color: #333333;
+    border: 1px solid #333333;
+    margin: 20px 3px;
+}
+.part_11_2 > div > button:hover{
+    color: #333333;
+    background-color: white;
+}
+.part_11_2 > div > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.part_11_2 > div > div > a{
+    color: #0e0d0d;
+}
+@media screen and (min-width:800px) and (max-width:1100px){
+        .part_11_2{
+            grid-template-columns: repeat(4,23%);
+            gap: 25px;
+        }
+        .part_11_2 > div > h5{
+            font-size: 14px;
+        }
+        .part_11_2 > div > p,h6{
+            font-size: 11px;
+        }
+    }
+    @media screen and (min-width:100px) and (max-width:799px){
+        .title{
+            padding: 10px 5px;
+        }
+        .title_child_1{
+            border-bottom: 0;
+            justify-content:flex-start;
+            align-items: center;
+        }
+        .title_child_1 > p{
+            display: none;
+        }
+        #bur_button{
+            display: block;
+            margin: 0 30px;
+        }
+        .offer_child_2{
+            display: none;
+        }
+        .catagory{
+            display: none;
+        }
+        .offer_child{
+            font-size: 10px;
+        }
+        .offer_child_2 > span{
+            font-size: 12px;
+        }
+        .offer_child_2 > a > p{
+            font-size: 12px;
+        }
+        button{
+            font-size: 10px;
+        }
+        .part_2_2 {
+            margin-top: 0;
+            display: block;
+            padding: 0 15px;
+        }
+        .part_2_2 > button{
+            width: 95%;
+            height: 40px;
+            display: block;
+        }
+        .part_3{
+            margin-top: 2cm;
+        }
+        .part_3_2{
+            margin-top: 0;
+        }
+        .part_3_2 > div{
+            width: 95%;
+            display: block;
+        }
+        .part_3_2 > div > button{
+            width: 100%;
+            /* border: 1px solid blue; */
+            height: 40px;
+            margin: 13px;
+            float: right;
+
+        }
+        .part_4{
+            margin-top: 2cm;
+        }
+        .part_4_2{
+            margin-top: 0;
+            display: block;
+            justify-content: space-evenly;
+        }
+        .part_4_2 > button{
+            margin: auto;
+            width: 100%;
+            margin: 7px 0;
+            display: block;
+        }
+        .part_6{
+            width: 95%;
+            display: block;
+            margin: auto;
+        }
+        .part_6_1{
+            width: 95%;
+            margin: 1cm auto;
+        }
+        .part_7_1{
+            width: 100%;
+        }
+        .part_7_1 > h3{
+            font-size: 15px;
+        }
+        .part_10 > h5{
+            font-size: 12px;
+        }
+        .part_10_2{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .part_11_1{
+            display: block;
+        }
+        .part_11_1 > div{
+            width: 80%;
+            margin: 15px auto;
+        }
+        .part_11_2{
+            grid-template-columns: repeat(2,47%);
+            gap: 25px;
+        }
+        .part_11_2 > div > h5{
+            font-size: 15px;
+        }
+        .part_11_2 > div > p,h6{
+            font-size: 12px;
+        }
+    }
+
+    #appendData{
+        border: 1px solid black;
+        display: flex;
+    }
+
+    #showimg{
+        width: 30%;
+    }
+    #showAlldata{
+        width: 70%;
+    }
