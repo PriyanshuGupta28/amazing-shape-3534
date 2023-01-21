@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Womens shoes</title>
     <style>
         *{
             margin: 0;
@@ -205,49 +205,41 @@
                 }
     </style>
     <style>
-         #main{
+        #main{
             display: grid;
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns: repeat(4,1fr);
             column-gap: 10px;
-            row-gap: 20px;
-            margin-top: 3cm;
+            row-gap: 40px;
+            margin-top: 6cm;
             margin-left: 5%;
-            width: 95%;
+            width: 75%;
         }
         #main>div img{
-            width: 80%;
+            width: 90%;
             height: 70%;
         }
         #main>div{
             margin: auto;
-            padding: 10px;
+            padding: 50px;
             width: 80%;
             height: 80%;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
         }
-        .cart-button{
-            padding: 5px;
-            font-size: x-large;
-            margin-left: 20%;
-            color: white;
-            background-color: black;
-            border-radius: 5px;
-        }
-        #container{
+        #conatiner{
             display: flex;
             justify-content: space-evenly;
             width: 95%;
             margin: auto;
             text-align: center;
         }
-        #container>div:nth-child(1){
+        #conatiner>div:nth-child(1){
             width: 20%;
-            margin-top: 6cm;
+            margin-top: 1cm;
             margin-left: 2cm;
         }
-        #container>div:nth-child(2){
+        #conatiner>div:nth-child(2){
             width: 100%;
-            overflow: auto;
+            margin-top: 1cm;
         }
         #function>div:nth-child(2){
             margin-top: 50px;
@@ -256,6 +248,14 @@
             padding: 10px;
             border-radius: 5px;
             border:1px solid black;
+        }
+        .cart-button{
+            /* padding: 5px; */
+            font-size: large;
+            margin-left: 20%;
+            color: white;
+            background-color: black;
+            border-radius: 5px;
         }
         #image-top{
             margin-top: 6cm;
@@ -273,17 +273,18 @@
             #main{
                 grid-template-columns: repeat(1,1fr);
             }
-            #container{
+            #conatiner{
                 flex-direction: column;
                 align-items: center;
             }
         }
+        
     </style>
     <style>
         .part_11{
     padding: 35px;
     background-color: rgb(245, 245, 245);
-    margin-top: 1cm;
+    margin-top: 2cm;
 }
 .part_11_1{
     display: flex;
@@ -316,9 +317,6 @@
     gap: 10px;
     margin: 1cm auto;
 }
-/* .part_11_2 >div{
-    border: 1px solid red;
-} */
 .part_11_2 > div > h5{
     color: #333333;
     margin: 20px 0;
@@ -484,7 +482,7 @@
             font-size: 12px;
         }
     }
-    </style>
+</style>
 </head>
 <body>
         <nav>
@@ -505,7 +503,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                         <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
                     </svg>
-                    <span>Sign In / Sign Up</span>
+                    <span>Sign In/Sign Up</span>
                 </div>
             </div>
             <div class="title">
@@ -517,7 +515,7 @@
                     </svg>
                 </div>
                 <div class="title_child title_child_3">
-                    <img src="logo.png" alt="" onclick="myfunc()">
+                    <img src="logo.png" onclick="myfunc()">
                 </div>
                 <div class="title_child title_child_2">
                     <a href="/Bagpage/Bagpage.html" onclick="Cart()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
@@ -529,11 +527,11 @@
             <div class="catagory">
                 <a href="#"><p>NEW!</p></a>
                 <a href="/WomenPage/WomenPage.html"><p>WOMEN</p></a>
-                <a href="./MenPage.html"><p>MEN</p></a>
+                <a href="/MenPage/MenPage.html"><p>MEN</p></a>
                 <a href="#"><p>KIDS</p></a>
                 <a href="#"><p>OUTWEAR</p></a>
                 <a href="#"><p>GREAR</p></a>
-                <a href="./Shoes.html"><p>FOOTWEAR</p></a>
+                <a href="/WomenPage/womens-shoes.html"><p>FOOTWEAR</p></a>
                 <a href="/Homepage/Homepage.html"><p>HOME</p></a>
                 <a href="#"><p>SALE</p></a>
                 <a href="#"><p>CLEARANCE</p></a>
@@ -545,11 +543,11 @@
                 <a href="#" class="closebtn" onclick="closenav()">X</a>
                 <a href="#"><p>NEW!</p></a>
                 <a href="/WomenPage/WomenPage.html"><p>WOMEN</p></a>
-                <a href="./MenPage.html"><p>MEN</p></a>
+                <a href="/MenPage/MenPage.html"><p>MEN</p></a>
                 <a href="#"><p>KIDS</p></a>
                 <a href="#"><p>OUTWEAR</p></a>
                 <a href="#"><p>GREAR</p></a>
-                <a href="./Shoes.html"><p>FOOTWEAR</p></a>
+                <a href="/WomenPage/womens-shoes.html"><p>FOOTWEAR</p></a>
                 <a href="/Homepage/Homepage.html"><p>HOME</p></a>
                 <a href="#"><p>SALE</p></a>
                 <a href="#"><p>CLEARANCE</p></a>
@@ -559,9 +557,9 @@
             </div>
         </nav>
         <div id="image-top">
-            <img src="image-shirt.jpg" alt="">
+            <img src="http://d1j1qf6tutjg18.cloudfront.net/eddiebauer_us_ca/1652293560131-eddiebauer_us_ca-220415_footwear_banner.jpg" alt="">
         </div>
-        <div id="container">
+        <div id="conatiner">
             <div id="function">
                 <div>
                     <label for="cost">Sort by Price</label>
@@ -577,14 +575,14 @@
                     <br>
                     <select name="size" id="sort-size">
                        <option value="All">All</option>
-                       <option value="XL">XL</option>
-                       <option value="X">X</option>
-                       <option value="L">L</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
                     </select>
                 </div>
-                
             </div>
-            <div id="main">  
+            <div id="main">
+
             </div>
         </div>
         <div class="part_11">
@@ -620,8 +618,7 @@
                     <p>everyone to experience the outdoors and live [heir adventure.</p>
                    </div> 
                 </div>
-            </div>
-    
+            </div>  
             <div class="part_11_2">
                 <div>
                     <h5>HELP</h5>
@@ -702,9 +699,9 @@
     fetch('shop.json')
   .then((response) => response.json())
   .then((data) =>{
-    console.log(data.men);
-    bag=data.men;
-    displayData(data.men)
+    console.log(data.Shoes);
+    bag=data.Shoes;
+    displayData(data.Shoes)
   });
   let main=document.querySelector("#main")
   function displayData(data){
@@ -717,7 +714,7 @@
         name.textContent=elem.name;
         let price=document.createElement("p");
         price.textContent="Rs:-"+elem.price;
-        let size=document.createElement("p");
+        let size= document.createElement("p");
         size.textContent="Size:- "+elem.size;
         let button=document.createElement("button");
         button.textContent="Add To Cart";
@@ -742,15 +739,16 @@
         card.append(image,name,price,size,button);
         main.append(card);
     })
-  };
+  }
   let sort=document.querySelector("#sort-price");
   sort.addEventListener("change",()=>{
     let val=document.querySelector("#sort-price").value;
     if(val=="All"){
+        // console.log(arr)
       fetch('shop.json')
       .then((response) => response.json())
       .then((data) =>{
-       displayData(data.men)
+       displayData(data.Shoes)
   });
     }else if(val=="L2H"){
         let sorted_value=bag.sort((a,b)=>{
@@ -771,27 +769,27 @@
     let val=document.querySelector("#sort-size").value;
     if(val=="All"){
         displayData(bag);
-    }else if(val=="X"){
+    }else if(val==5){
         let filtered_data=bag.filter(function(elem){
-            return elem.size=="X";
+            return elem.size==5;
         });
         displayData(filtered_data);
-    }else if(val=="L"){
+    }else if(val==6){
         let filtered_data=bag.filter(function(elem){
-            return elem.size=="L";
+            return elem.size==6;
         });
         displayData(filtered_data)
-    }else if(val=="XL"){
+    }else if(val==7){
         let filtered_data=bag.filter(function(elem){
-            return elem.size=="XL";
+            return elem.size==7;
         });
         displayData(filtered_data);
     }
 })
 function myfunc(){
     document.location="/Homepage/Homepage.html"
-};
+}
 function Cart(){
     document.location="/Bagpage/Bagpage.html"
-};
+}
 </script>
