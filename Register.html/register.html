@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
-    <link rel="stylesheet" href="LoginPage.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
 </head>
 <body>
 <!--nav bar-->
-<nav>
+  <nav>
     <div class="offer">
         <div class="offer_child">
             <img src="https://www.eddiebauer.com/static/ar-logo/ar-logo-small.png" alt="">
@@ -80,35 +80,37 @@
         <a href="#"><p>GUIDPOST</p></a>
         </div>
     </div>
-</nav>
-<!--container-->
-<div class="content">
-        <div class="box1">
-    <form>
-        <h1>LOG IN</h1>
-        <input type="email" id="email" placeholder="E-MAIL"/> <br>
-        <p id="output1"></p>
-        <input type="password" id="password" placeholder="PASSWORD"/>
-        <p id="output2"></p>
-        <p>HAVE YOU FORGATTEN PASSWORD?</p>
-        <button id="click">LOG IN</button>
-    </form>
-    </div>
-    <div class="box2">
-        <h1>REGISTER</h1>
-        <p>IF YOU STILL DON'T HAVE A <b>ZARA.COM</b> ACCOUNT, USE THIS OPTION TO <br>
-            ACCESS THE REGISTRATION FORM.
-        </p>
-        <p>BY GIVING US YOUR DETAILS, PURCHASING IN <b>ZARA.COM</b> WILL BE FASTER <br>
-            AND AN ENJOYABLE EXPERIENCE.
-        </p>
-        <button id="full_register"><a href="./register.html">CREATE ACCOUNT</a></button>
-    </div>
-</div>
-<div id="register"><h4>DON’T HAVE AN ACCOUNT? <a href="./register.html">REGISTER</a> </h4></div>
-<!--middle part-->
-<div id="box02">
-</div>
+    </nav>
+<!--content-->
+<h1 class="heading">PERSONAL DETAILS</h1>
+<form class="content">
+  <div>
+    <input type="email" id="email" placeholder="E-MAIL">
+    <input type="password" id="checkone" placeholder="PASSWORD">
+    <input type="text" placeholder="NAME">
+    <input type="text" placeholder="ADDRESS">
+    <input type="text" placeholder="LOCALITY">
+    <select>
+      <option value="null">- - -</option>
+      <option value="WEST_BENGLE">WEST BENGLE</option>
+      <option value="DEHLI">DEHLI</option>
+      <option value="BIHAR">BIHAR</option>
+    </select>
+    <span>
+      <p>+91</p>
+      <input type="number" placeholder="TELEPHONE">
+    </span>
+  </div>
+  <div>
+    <input type="text" id="checktwo" placeholder="REPEATE PASSWORD">
+    <input type="number" placeholder="PIN CODE">
+    <input type="text" placeholder="OPTION">
+    <input type="text" placeholder="CITY">
+    <input type="text" placeholder="REGION">
+    <button id="register">CREATE ACCOUNT</button>
+    <a class="loginn" href="./login.html">Login</a>
+  </div>
+</form>
 <!--footer-->
 <div class="part_11">
   <div class="part_11_1">
@@ -220,61 +222,38 @@
 </div>
 </body>
 <script>
+  let checkone = document.getElementById("checkone");
+  let checktwo = document.getElementById("checktwo");
+  let register = document.getElementById("register");
   let email = document.getElementById("email");
-  let conform = document.getElementById("conform");
-  let password = document.getElementById("password");
-  let output1 = document.getElementById("output1");
-  output1.style.color = "red";
-  let output2 = document.getElementById("output2");
-  output2.style.color = "red";
-  let click = document.getElementById("click");
 
-  let userdata = JSON.parse(localStorage.getItem("data"))||[];
+  register.addEventListener("click",(e)=>{
+    e.preventDefault();
+    if(email.value==""||checkone.value==""||checktwo.value==""){
+      alert("FILL THE BOXES");
+    }
+    else if(checkone.value!=checktwo.value){
+      alert("WRONG PASSWORD");
+    }
+    else{
+      let userdata = JSON.parse(localStorage.getItem("data"))||[];
 
-  click.addEventListener("click",(e)=>{
-    e.preventDefault()
-    if(email.value==""){
-      output1.innerText = "(!) Required field."
-  }
-  else{
-    output1.innerText = null;
-  }
-  if(password.value==""){
-      output2.innerText = "(!) Required field."
-  }
-  else{
-    output2.innerText = null;
-  }
-
-  sign(userdata);
-
-  function sign(e){
-      let count = 0;
-      userdata.forEach(function(element,index){
-        if(element.email==email.value && element.password==password.value){
-          count++
-        }
-        
-      })
-      console.log(count)
-        if(count==1){
-          console.log("working")
-          click.innerText = "LOGIN SUCCESSFULL...";
-          count = 0;
-          setTimeout(()=>{
-            open("./index.html")
-          },1300)
-        }
-        else{
-          console.log("not working")
-          output2.innerText = "INVALID ACCOUNT";
+      let obj = {
+        password : checktwo.value,
+        email : email.value
       }
+      userdata.push(obj);
+      // console.log(userdata);
+
+      localStorage.setItem("data",JSON.stringify(userdata));
+      setTimeout(()=>{
+        open("./login.html")
+      },1300)
     }
   })
 
-  /*checking part*/
-
-  function opennav(){
+/*slide*/
+    function opennav(){
     let match = window.matchMedia("(max-width:750px)").matches;
 
     console.log(match)
